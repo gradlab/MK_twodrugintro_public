@@ -1,0 +1,9 @@
+Years,0,1,2,3,Strategy
+2,1000,0,0,0,Sequential
+2,1000,0,0,0,Equal Allocation
+5,385,615,0,0,Sequential
+5,1000,0,0,0,Equal Allocation
+10,4,961,35,0,Sequential
+10,1000,0,0,0,Equal Allocation
+30,0,249,711,40,Sequential
+30,748,252,0,0,Equal Allocation
