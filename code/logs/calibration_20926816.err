@@ -1,0 +1,45 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ forcats   1.0.0     ✔ readr     2.1.5
+✔ ggplot2   3.5.1     ✔ stringr   1.5.1
+✔ lubridate 1.9.3     ✔ tibble    3.2.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Installing package into ‘/n/home03/mkline/R/ifxrstudio/RELEASE_3_19’
+(as ‘lib’ is unspecified)
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-10-30/src/contrib/bbmle_1.0.25.1.tar.gz'
+Content type 'binary/octet-stream' length 885978 bytes (865 KB)
+==================================================
+downloaded 865 KB
+
+* installing *binary* package ‘bbmle’ ...
+* DONE (bbmle)
+
+The downloaded source packages are in
+	‘/tmp/RtmpmNtcsL/downloaded_packages’
+Loading required package: stats4
+
+Attaching package: ‘bbmle’
+
+The following object is masked from ‘package:dplyr’:
+
+    slice
+
+Warning messages:
+1: In dbeta(x = prev_target, beta.params.prev$alpha, beta.params.prev$beta,  :
+  NaNs produced
+2: In dbeta(x = prev_target, beta.params.prev$alpha, beta.params.prev$beta,  :
+  NaNs produced

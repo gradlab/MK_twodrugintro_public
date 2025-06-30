@@ -1,0 +1,377 @@
+── R CMD INSTALL ───────────────────────────────────────────────────────────────
+* installing *source* package ‘odin76b41bfc’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c odin.c -o odin.o
+odin.c: In function ‘user_get_scalar_int’:
+odin.c:1735:47: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const char *’ [-Wformat=]
+ 1735 |       Rf_error("Expected scalar integer for '%d'", name);
+      |                                              ~^    ~~~~
+      |                                               |    |
+      |                                               int  const char *
+      |                                              %s
+odin.c: In function ‘user_get_array’:
+odin.c:1893:48: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 1893 |         Rf_error("Incorrect size of dimension %d of %s (expected %d)",
+      |                                               ~^
+      |                                                |
+      |                                                int
+      |                                               %ld
+ 1894 |                  i + 1, name, dim_expected);
+      |                  ~~~~~                          
+      |                    |
+      |                    size_t {aka long unsigned int}
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c registration.c -o registration.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o odin76b41bfc.so odin.o registration.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/RtmpSdSQYN/devtools_install_38c4d85f5d9fb0/00LOCK-file38c4d85b919d56/00new/odin76b41bfc/libs
+** checking absolute paths in shared objects and dynamic libraries
+* DONE (odin76b41bfc)
+── R CMD INSTALL ───────────────────────────────────────────────────────────────
+* installing *source* package ‘odin68c61458’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c odin.c -o odin.o
+odin.c: In function ‘user_get_scalar_int’:
+odin.c:1818:47: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const char *’ [-Wformat=]
+ 1818 |       Rf_error("Expected scalar integer for '%d'", name);
+      |                                              ~^    ~~~~
+      |                                               |    |
+      |                                               int  const char *
+      |                                              %s
+odin.c: In function ‘user_get_array’:
+odin.c:1976:48: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 1976 |         Rf_error("Incorrect size of dimension %d of %s (expected %d)",
+      |                                               ~^
+      |                                                |
+      |                                                int
+      |                                               %ld
+ 1977 |                  i + 1, name, dim_expected);
+      |                  ~~~~~                          
+      |                    |
+      |                    size_t {aka long unsigned int}
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c registration.c -o registration.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o odin68c61458.so odin.o registration.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/RtmpSdSQYN/devtools_install_38c4d8b6d5818/00LOCK-file38c4d8794822c2/00new/odin68c61458/libs
+** checking absolute paths in shared objects and dynamic libraries
+* DONE (odin68c61458)
+── R CMD INSTALL ───────────────────────────────────────────────────────────────
+* installing *source* package ‘odin4c08249a’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c odin.c -o odin.o
+odin.c: In function ‘user_get_scalar_int’:
+odin.c:1762:47: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const char *’ [-Wformat=]
+ 1762 |       Rf_error("Expected scalar integer for '%d'", name);
+      |                                              ~^    ~~~~
+      |                                               |    |
+      |                                               int  const char *
+      |                                              %s
+odin.c: In function ‘user_get_array’:
+odin.c:1920:48: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 1920 |         Rf_error("Incorrect size of dimension %d of %s (expected %d)",
+      |                                               ~^
+      |                                                |
+      |                                                int
+      |                                               %ld
+ 1921 |                  i + 1, name, dim_expected);
+      |                  ~~~~~                          
+      |                    |
+      |                    size_t {aka long unsigned int}
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c registration.c -o registration.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o odin4c08249a.so odin.o registration.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/RtmpSdSQYN/devtools_install_38c4d86f076423/00LOCK-file38c4d8afb5db2/00new/odin4c08249a/libs
+** checking absolute paths in shared objects and dynamic libraries
+* DONE (odin4c08249a)
+── R CMD INSTALL ───────────────────────────────────────────────────────────────
+* installing *source* package ‘odin6c1fe206’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c odin.c -o odin.o
+odin.c: In function ‘user_get_scalar_int’:
+odin.c:1806:47: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const char *’ [-Wformat=]
+ 1806 |       Rf_error("Expected scalar integer for '%d'", name);
+      |                                              ~^    ~~~~
+      |                                               |    |
+      |                                               int  const char *
+      |                                              %s
+odin.c: In function ‘user_get_array’:
+odin.c:1964:48: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 1964 |         Rf_error("Incorrect size of dimension %d of %s (expected %d)",
+      |                                               ~^
+      |                                                |
+      |                                                int
+      |                                               %ld
+ 1965 |                  i + 1, name, dim_expected);
+      |                  ~~~~~                          
+      |                    |
+      |                    size_t {aka long unsigned int}
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c registration.c -o registration.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o odin6c1fe206.so odin.o registration.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/RtmpSdSQYN/devtools_install_38c4d8692ab81b/00LOCK-file38c4d82ec27db0/00new/odin6c1fe206/libs
+** checking absolute paths in shared objects and dynamic libraries
+* DONE (odin6c1fe206)
+── R CMD INSTALL ───────────────────────────────────────────────────────────────
+* installing *source* package ‘odin9a602777’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c odin.c -o odin.o
+odin.c: In function ‘user_get_scalar_int’:
+odin.c:1870:47: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const char *’ [-Wformat=]
+ 1870 |       Rf_error("Expected scalar integer for '%d'", name);
+      |                                              ~^    ~~~~
+      |                                               |    |
+      |                                               int  const char *
+      |                                              %s
+odin.c: In function ‘user_get_array’:
+odin.c:2028:48: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 2028 |         Rf_error("Incorrect size of dimension %d of %s (expected %d)",
+      |                                               ~^
+      |                                                |
+      |                                                int
+      |                                               %ld
+ 2029 |                  i + 1, name, dim_expected);
+      |                  ~~~~~                          
+      |                    |
+      |                    size_t {aka long unsigned int}
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c registration.c -o registration.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o odin9a602777.so odin.o registration.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/RtmpSdSQYN/devtools_install_38c4d8136e1e1b/00LOCK-file38c4d856516a7a/00new/odin9a602777/libs
+** checking absolute paths in shared objects and dynamic libraries
+* DONE (odin9a602777)
+── R CMD INSTALL ───────────────────────────────────────────────────────────────
+* installing *source* package ‘odin3c6c06ff’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c odin.c -o odin.o
+odin.c: In function ‘user_get_scalar_int’:
+odin.c:1813:47: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const char *’ [-Wformat=]
+ 1813 |       Rf_error("Expected scalar integer for '%d'", name);
+      |                                              ~^    ~~~~
+      |                                               |    |
+      |                                               int  const char *
+      |                                              %s
+odin.c: In function ‘user_get_array’:
+odin.c:1971:48: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 1971 |         Rf_error("Incorrect size of dimension %d of %s (expected %d)",
+      |                                               ~^
+      |                                                |
+      |                                                int
+      |                                               %ld
+ 1972 |                  i + 1, name, dim_expected);
+      |                  ~~~~~                          
+      |                    |
+      |                    size_t {aka long unsigned int}
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c registration.c -o registration.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o odin3c6c06ff.so odin.o registration.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/RtmpSdSQYN/devtools_install_38c4d81a307510/00LOCK-file38c4d84bc6bbb1/00new/odin3c6c06ff/libs
+** checking absolute paths in shared objects and dynamic libraries
+* DONE (odin3c6c06ff)
+── R CMD INSTALL ───────────────────────────────────────────────────────────────
+* installing *source* package ‘odin95f1b52a’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c odin.c -o odin.o
+odin.c: In function ‘user_get_scalar_int’:
+odin.c:1847:47: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const char *’ [-Wformat=]
+ 1847 |       Rf_error("Expected scalar integer for '%d'", name);
+      |                                              ~^    ~~~~
+      |                                               |    |
+      |                                               int  const char *
+      |                                              %s
+odin.c: In function ‘user_get_array’:
+odin.c:2005:48: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 2005 |         Rf_error("Incorrect size of dimension %d of %s (expected %d)",
+      |                                               ~^
+      |                                                |
+      |                                                int
+      |                                               %ld
+ 2006 |                  i + 1, name, dim_expected);
+      |                  ~~~~~                          
+      |                    |
+      |                    size_t {aka long unsigned int}
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c registration.c -o registration.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o odin95f1b52a.so odin.o registration.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/RtmpSdSQYN/devtools_install_38c4d84f609621/00LOCK-file38c4d8547af8b7/00new/odin95f1b52a/libs
+** checking absolute paths in shared objects and dynamic libraries
+* DONE (odin95f1b52a)
+── R CMD INSTALL ───────────────────────────────────────────────────────────────
+* installing *source* package ‘odin2d2f3b67’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c odin.c -o odin.o
+odin.c: In function ‘user_get_scalar_int’:
+odin.c:4409:47: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const char *’ [-Wformat=]
+ 4409 |       Rf_error("Expected scalar integer for '%d'", name);
+      |                                              ~^    ~~~~
+      |                                               |    |
+      |                                               int  const char *
+      |                                              %s
+odin.c: In function ‘user_get_array’:
+odin.c:4567:48: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 4567 |         Rf_error("Incorrect size of dimension %d of %s (expected %d)",
+      |                                               ~^
+      |                                                |
+      |                                                int
+      |                                               %ld
+ 4568 |                  i + 1, name, dim_expected);
+      |                  ~~~~~                          
+      |                    |
+      |                    size_t {aka long unsigned int}
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c registration.c -o registration.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o odin2d2f3b67.so odin.o registration.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/RtmpSdSQYN/devtools_install_38c4d850f222c5/00LOCK-file38c4d8378c8cd/00new/odin2d2f3b67/libs
+** checking absolute paths in shared objects and dynamic libraries
+* DONE (odin2d2f3b67)
+── R CMD INSTALL ───────────────────────────────────────────────────────────────
+* installing *source* package ‘odinb9d7af46’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c odin.c -o odin.o
+odin.c: In function ‘user_get_scalar_int’:
+odin.c:4443:47: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const char *’ [-Wformat=]
+ 4443 |       Rf_error("Expected scalar integer for '%d'", name);
+      |                                              ~^    ~~~~
+      |                                               |    |
+      |                                               int  const char *
+      |                                              %s
+odin.c: In function ‘user_get_array’:
+odin.c:4601:48: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 4601 |         Rf_error("Incorrect size of dimension %d of %s (expected %d)",
+      |                                               ~^
+      |                                                |
+      |                                                int
+      |                                               %ld
+ 4602 |                  i + 1, name, dim_expected);
+      |                  ~~~~~                          
+      |                    |
+      |                    size_t {aka long unsigned int}
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c registration.c -o registration.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o odinb9d7af46.so odin.o registration.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/RtmpSdSQYN/devtools_install_38c4d82a384f72/00LOCK-file38c4d85d89214/00new/odinb9d7af46/libs
+** checking absolute paths in shared objects and dynamic libraries
+* DONE (odinb9d7af46)
+── R CMD INSTALL ───────────────────────────────────────────────────────────────
+* installing *source* package ‘odinff5ca7d5’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c odin.c -o odin.o
+odin.c: In function ‘user_get_scalar_int’:
+odin.c:4409:47: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const char *’ [-Wformat=]
+ 4409 |       Rf_error("Expected scalar integer for '%d'", name);
+      |                                              ~^    ~~~~
+      |                                               |    |
+      |                                               int  const char *
+      |                                              %s
+odin.c: In function ‘user_get_array’:
+odin.c:4567:48: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 4567 |         Rf_error("Incorrect size of dimension %d of %s (expected %d)",
+      |                                               ~^
+      |                                                |
+      |                                                int
+      |                                               %ld
+ 4568 |                  i + 1, name, dim_expected);
+      |                  ~~~~~                          
+      |                    |
+      |                    size_t {aka long unsigned int}
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c registration.c -o registration.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o odinff5ca7d5.so odin.o registration.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/RtmpSdSQYN/devtools_install_38c4d87a87de38/00LOCK-file38c4d8610941df/00new/odinff5ca7d5/libs
+** checking absolute paths in shared objects and dynamic libraries
+* DONE (odinff5ca7d5)
+── R CMD INSTALL ───────────────────────────────────────────────────────────────
+* installing *source* package ‘odin0bf4a30c’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c odin.c -o odin.o
+odin.c: In function ‘user_get_scalar_int’:
+odin.c:4443:47: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const char *’ [-Wformat=]
+ 4443 |       Rf_error("Expected scalar integer for '%d'", name);
+      |                                              ~^    ~~~~
+      |                                               |    |
+      |                                               int  const char *
+      |                                              %s
+odin.c: In function ‘user_get_array’:
+odin.c:4601:48: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 4601 |         Rf_error("Incorrect size of dimension %d of %s (expected %d)",
+      |                                               ~^
+      |                                                |
+      |                                                int
+      |                                               %ld
+ 4602 |                  i + 1, name, dim_expected);
+      |                  ~~~~~                          
+      |                    |
+      |                    size_t {aka long unsigned int}
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c registration.c -o registration.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o odin0bf4a30c.so odin.o registration.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/RtmpSdSQYN/devtools_install_38c4d81a16d35c/00LOCK-file38c4d87a85b9ca/00new/odin0bf4a30c/libs
+** checking absolute paths in shared objects and dynamic libraries
+* DONE (odin0bf4a30c)
+── R CMD INSTALL ───────────────────────────────────────────────────────────────
+* installing *source* package ‘odin053f8e5c’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c odin.c -o odin.o
+odin.c: In function ‘user_get_scalar_int’:
+odin.c:3652:47: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const char *’ [-Wformat=]
+ 3652 |       Rf_error("Expected scalar integer for '%d'", name);
+      |                                              ~^    ~~~~
+      |                                               |    |
+      |                                               int  const char *
+      |                                              %s
+odin.c: In function ‘user_get_array’:
+odin.c:3810:48: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 3810 |         Rf_error("Incorrect size of dimension %d of %s (expected %d)",
+      |                                               ~^
+      |                                                |
+      |                                                int
+      |                                               %ld
+ 3811 |                  i + 1, name, dim_expected);
+      |                  ~~~~~                          
+      |                    |
+      |                    size_t {aka long unsigned int}
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c registration.c -o registration.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o odin053f8e5c.so odin.o registration.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/RtmpSdSQYN/devtools_install_38c4d843dbb906/00LOCK-file38c4d8568b928c/00new/odin053f8e5c/libs
+** checking absolute paths in shared objects and dynamic libraries
+* DONE (odin053f8e5c)
+── R CMD INSTALL ───────────────────────────────────────────────────────────────
+* installing *source* package ‘odin697c2f06’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c odin.c -o odin.o
+odin.c: In function ‘user_get_scalar_int’:
+odin.c:3686:47: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const char *’ [-Wformat=]
+ 3686 |       Rf_error("Expected scalar integer for '%d'", name);
+      |                                              ~^    ~~~~
+      |                                               |    |
+      |                                               int  const char *
+      |                                              %s
+odin.c: In function ‘user_get_array’:
+odin.c:3844:48: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 3844 |         Rf_error("Incorrect size of dimension %d of %s (expected %d)",
+      |                                               ~^
+      |                                                |
+      |                                                int
+      |                                               %ld
+ 3845 |                  i + 1, name, dim_expected);
+      |                  ~~~~~                          
+      |                    |
+      |                    size_t {aka long unsigned int}
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -UNDEBUG -Wall -pedantic -g -O0 -c registration.c -o registration.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o odin697c2f06.so odin.o registration.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/RtmpSdSQYN/devtools_install_38c4d87c2f2afe/00LOCK-file38c4d81a2665cd/00new/odin697c2f06/libs
+** checking absolute paths in shared objects and dynamic libraries
+* DONE (odin697c2f06)
