@@ -1,0 +1,8 @@
+step,avg_drugs_lost,avg_all3_lost,parameter_comb,strategy
+730,0,0,965,sequential
+1000,0,0,965,sequential
+1825,0.18,0,965,sequential
+3650,0.87,0,965,sequential
+5000,0.98,0,965,sequential
+7300,1.03,0,965,sequential
+10000,1.03,0,965,sequential
