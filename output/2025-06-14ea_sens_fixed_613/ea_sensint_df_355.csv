@@ -1,0 +1,8 @@
+step,parameter_comb,strategy,prop_runs_prevA_above,prop_runs_prevB_above,prop_runs_prevC_above
+730,355,equal allocation,0,0,0
+1000,355,equal allocation,0,0,0
+1825,355,equal allocation,0,0,0
+3650,355,equal allocation,0,0.02,0
+5000,355,equal allocation,0,0.1,0
+7300,355,equal allocation,0,0.32,0
+10000,355,equal allocation,0,0.4,0
