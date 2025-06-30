@@ -1,0 +1,8 @@
+step,parameter_comb,strategy,prop_runs_prevA_above,prop_runs_prevB_above,prop_runs_prevC_above
+730,249,sequential,0,0,0
+1000,249,sequential,0,0,0
+1825,249,sequential,0,0,0
+3650,249,sequential,1,0,0
+5000,249,sequential,1,0,0
+7300,249,sequential,1,0.03,0
+10000,249,sequential,1,0.88,0
