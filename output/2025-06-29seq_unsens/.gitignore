@@ -1,0 +1,5 @@
+*
+!.gitignore
+!seq_unsenssequentialprevAdf.csv
+!seq_unsenssequentialprevBdf.csv
+!seq_unsenssequentialprevCdf.csv
