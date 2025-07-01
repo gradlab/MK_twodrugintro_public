@@ -1,8 +1,0 @@
-step,avg_drugs_lost,avg_all3_lost,parameter_comb,strategy
-730,0,0,235,equal allocation
-1000,0,0,235,equal allocation
-1825,0,0,235,equal allocation
-3650,0.06,0,235,equal allocation
-5000,0.37,0,235,equal allocation
-7300,1.03,0,235,equal allocation
-10000,1.43,0,235,equal allocation
