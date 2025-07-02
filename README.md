@@ -22,6 +22,13 @@ The `code/` folder contains the code used to run the analyses shown in the manus
     - `seq_baselineparms_propdf.csv`
     - `combined_baselineparms_numslost.csv`
     - `combined_baselineparms_numslost_filtered.csv`: becomes Supplementary Table 3, and the other outputs are used for generating main and supplementary figures, as described.
+  -  `baselineparms_1000runs_plots.R`: Takes in the outputs generated in `baselineparms_1000runs_output.R` and generates figures. Figures generated are written to `figures/baseline_parms_figures/` and include:
+    - `baseline_prevplot_50y.tiff`: which becomes Figure 1 panel A
+    - `ea_propres_heatmap.tif` and `seq_propres_heatmap.tif`: which become Figure 1 panel B
+    - `baseline_avglost_50y.tiff`: which becomes Supplementary Figure 3 panel A
+    - `ea_drugsremaining_heatmap.tiff` and `seq_drugsremaining_heatmap.tiff`: which become Supplementary Figure 3 panel B
+    - `baseline_all3lost_50y.tiff`: which becomes Supplementary Figure 4 panel A
+    - `alldrugslost_heatmap_ea_yrs.tiff` and `alldrugslost_heatmap_seq_yrs.tiff`: which become Supplementary Figure 4 panel B
   - `threshold_analysis_output_plots.R`: takes output generated from `threshold_analysis.R`, which was too large to include in the GitHub repo, and creates summarized outputs and plots from them. The output files from this script are written to `output/baseline_parms_analysis/` and include:
     - `seq_1perc_locksumdf.csv`
     - `seq_5perc_locksumdf.csv`
@@ -29,9 +36,10 @@ The `code/` folder contains the code used to run the analyses shown in the manus
     - `ea_1perc_locksumdf.csv`
     - `ea_5perc_locksumdf.csv`
     - `ea_10perc_locksumdf.csv`
-  - The plots that are generated from this file include the components of Figure 2, written to `/figures/baseline_parms_figures/`:
+  - The plots that are generated from `threshold_analysis_output_plots.R` include the components of Figure 2, written to `/figures/baseline_parms_figures/`:
     - `threshold_compare_plot.tiff` which becomes panel A
     - `threshold_heatmap_ea.tiff` and `threshold_heatmap_seq.tiff` which become panel B.
+    
 
       
 
