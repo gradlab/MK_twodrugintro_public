@@ -77,6 +77,15 @@ The `code/` folder contains the code used to run the analyses shown in the manus
     - `sens_analysis_propplots.R`: Takes in `output/6_23_edgecase_sens_analy_all.csv` edges cases and uses the list of stochastic seeds generated from teh sensitivity analysis to re-run these 22 cases with those some seeds saving all time points to make plots of the resistance prevalence trajectories for these 22 cases. This creates two sets of outputs:
         - `output/sens_anal_outputs/`: the dataframes used to generate the trajectory plots for a given LHS parameter combination
         - `figures/sens_analysis_figures/prop_plots/`: the plot itself. These plots went on to form Supplementary Figure 6 and Supplementary Figure 7.  <br><br>
+
+__Figures__:
+Figures are as described in the code descriptions. All figures were then combined and annotated in Adobe Illustrator. Briefly:
+* `baseline_parms_figures/`: contains the figures from the baseline parameter analyses that go on to form Figure 1, Figure 2, Supplementary Figure 3, and Supplementary Figure 4
+* `deterministic_figures/`: contains the figures from the deterministic model runs that form Supplementary Figure 2.
+* `2025-06-30_unsensitivity_figures/`: contains the figures from the LHS sensitivity analysis of the Group 1 parameters that go on to form Supplementary Figure 5.
+* `sens_analysis_figures`: Contains the figures that go on to form Figure 3 of the main text. Subfolder `prop_plots` contains the figures that form Supplementary Figure 6 and Supplementary Figure 7.
+
+  
         
 
       
