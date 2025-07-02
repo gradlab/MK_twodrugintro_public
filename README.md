@@ -7,4 +7,4 @@ The `code/` folder contains the code used to run the analyses shown in the manus
       `3drug_parameters_6_12.R`: Contains the baseline set of parameters and initial conditions. \
       `3drug_parameters_6_12.R`: Contains the baseline set of parameters and initial conditions.
 * Files running baseline parameter simulations: \
-      `baselineparms_1000runs_ea.R`: Code used to run odin model `equal_allocation_stochastic_6_7_brief` from `3drug_stochastic_models.R` for 1000 simulations. 
+      `baselineparms_1000runs_ea.R`: Code used to run odin model `equal_allocation_stochastic_6_7_brief` from `3drug_stochastic_models.R` for 1000 simulations. The output files from this run can be found in the folder `output/baseline_parms_analysis/2025-06-28baselineparms_1000runs_ea`. 
