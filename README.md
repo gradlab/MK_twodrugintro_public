@@ -74,7 +74,9 @@ The `code/` folder contains the code used to run the analyses shown in the manus
         - `figures/sens_analysis_figures/drugslost_scatter_20yrs.tiff` which becomes Figure 3 panel C
         - `figures/sens_analysis_figures/drugB_prevcompare_scatter_10yrs_all.tiff` which becomes Figure 3 panel D
         - `figures/sens_analysis_figures/drugC_prevcompare_scatter_10yrs_all.tiff` which becomes Figure 3 panel E
-        -   <br><br>
+    - `sens_analysis_propplots.R`: Takes in `output/6_23_edgecase_sens_analy_all.csv` edges cases and uses the list of stochastic seeds generated from teh sensitivity analysis to re-run these 22 cases with those some seeds saving all time points to make plots of the resistance prevalence trajectories for these 22 cases. This creates two sets of outputs:
+        - `output/sens_anal_outputs/`: the dataframes used to generate the trajectory plots for a given LHS parameter combination
+        - `figures/sens_analysis_figures/prop_plots/`: the plot itself. These plots went on to form Supplementary Figure 6 and Supplementary Figure 7.  <br><br>
         
 
       
