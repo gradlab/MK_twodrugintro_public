@@ -7,10 +7,10 @@ The `code/` folder contains the code used to run the analyses shown in the manus
     -`6_23_cluster_calibration_expparms.csv`: which exponentiates the dataframe of calibrated parameters, giving interpretable calibrated parameters for probability parameters (CHECK)
     -`6_23_cluster_calibration_ilogitparms.csv`: which takes the inverse logit of the dataframe of calibrated parameters, giving interpretable calibrated parameters for rate parameters (CHECK)
      <br><br>
-* Helper files: 
-     - `3drug_stochastic_models.R`: Contains the Odin models used in these analyses. 
-     - `3drug_parameters_6_12.R`: Contains the baseline set of parameters and initial conditions. 
-     - `3drug_stochastic_functions.R`: Contains the helped functions coded to run the analyses. <br><br>
+* Helper files:
+  - `3drug_stochastic_models.R`: Contains the Odin models used in these analyses. 
+  - `3drug_parameters_6_12.R`: Contains the baseline set of parameters and initial conditions.
+  - `3drug_stochastic_functions.R`: Contains the helped functions coded to run the analyses. <br><br>
 * Files running baseline parameter simulations: 
      - `baselineparms_1000runs_ea.R`: Code used to run odin model `equal_allocation_stochastic_6_7_brief` from `3drug_stochastic_models.R` using run function `run_stochastic_brief_6_27` from `3drug_stochastic_functions.R` for 1000 simulations.
      - `baselineparms_1000runs_seq.R`: Code used to run odin model `sequential_stochastic_6_7_brief` from `3drug_stochastic_models.R` using run function `run_stochastic_brief_6_27` from `3drug_stochastic_functions.R` for 1000 simulations. <br><br>
