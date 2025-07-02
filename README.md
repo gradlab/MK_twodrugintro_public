@@ -4,8 +4,8 @@ __Code__: \
 The `code/` folder contains the code used to run the analyses shown in the manuscript. Files that end in "`.R`" are the R scripts that were run and files ending in "`.sh`" are the bash scripts used to run the R scripts that correspond in name. The "`logs/`" subfolder contains the log files from the bash scripts. The scripts correspond to the following analyses: 
 * Calibration files:
   - `calibration_runscript.R`: Runs a drug A only model to run calibration, which determines values for baseline parameter set found in  `3drug_parameters_6_12.R`. This script writes to output files to `output/calibration/`:
-    - `6_23_cluster_calibration_expparms.csv`: which exponentiates the dataframe of calibrated parameters, giving interpretable calibrated parameters for probability parameters (CHECK)
-    - `6_23_cluster_calibration_ilogitparms.csv`: which takes the inverse logit of the dataframe of calibrated parameters, giving interpretable calibrated parameters for rate parameters (CHECK) <br><br>
+    - `6_23_cluster_calibration_expparms.csv`: which exponentiates the dataframe of calibrated parameters, giving interpretable calibrated parameters for rate parameters 
+    - `6_23_cluster_calibration_ilogitparms.csv`: which takes the inverse logit of the dataframe of calibrated parameters, giving interpretable calibrated parameters for probability parameters <br><br>
 * Helper files:
   - `3drug_stochastic_models.R`: Contains the Odin models used in these analyses. 
   - `3drug_parameters_6_12.R`: Contains the baseline set of parameters and initial conditions.
