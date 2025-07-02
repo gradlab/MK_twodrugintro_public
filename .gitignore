@@ -5,3 +5,7 @@ output/baseline_parms_analysis/2025-06-27seq_10erc_threshold/
 output/baseline_parms_analysis/2025-06-27seq_1perc_threshold/
 output/baseline_parms_analysis/2025-06-28baselineparms_1000runs_ea/
 output/baseline_parms_analysis/2025-06-28baselineparms_1000runs_seq/
+code/baselineparms_10000runs_ea*
+code/baselineparms_10000runs_seq*
+code/baselineparms_10kruns_ea_sapphire*
+code/baselineparms_10kruns_seq_sapphire*
