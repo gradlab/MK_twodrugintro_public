@@ -23,7 +23,7 @@ The `code/` folder contains the code used to run the analyses shown in the manus
     - `combined_baselineparms_numslost.csv`
     - `combined_baselineparms_numslost_filtered.csv`: becomes Supplementary Table 3, and the other outputs are used for generating main and supplementary figures, as described.
   -  `baselineparms_1000runs_plots.R`: Takes in the outputs generated in `baselineparms_1000runs_output.R` and generates figures. Figures generated are written to `figures/baseline_parms_figures/` and include:
-    -`baseline_prevplot_50y.tiff`: which becomes Figure 1 panel A
+    - `baseline_prevplot_50y.tiff`: which becomes Figure 1 panel A
     - `ea_propres_heatmap.tif` and `seq_propres_heatmap.tif`: which become Figure 1 panel B
     - `baseline_avglost_50y.tiff`: which becomes Supplementary Figure 3 panel A
     - `ea_drugsremaining_heatmap.tiff` and `seq_drugsremaining_heatmap.tiff`: which become Supplementary Figure 3 panel B
