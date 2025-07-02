@@ -78,7 +78,7 @@ The `code/` folder contains the code used to run the analyses shown in the manus
         - `output/sens_anal_outputs/`: the dataframes used to generate the trajectory plots for a given LHS parameter combination
         - `figures/sens_analysis_figures/prop_plots/`: the plot itself. These plots went on to form Supplementary Figure 6 and Supplementary Figure 7.  <br><br>
 
-__Figures__:
+__Figures__:\
 Figures are as described in the code descriptions. All figures were then combined and annotated in Adobe Illustrator. Briefly:
 * `baseline_parms_figures/`: contains the figures from the baseline parameter analyses that go on to form Figure 1, Figure 2, Supplementary Figure 3, and Supplementary Figure 4
 * `deterministic_figures/`: contains the figures from the deterministic model runs that form Supplementary Figure 2.
