@@ -62,8 +62,10 @@ The `code/` folder contains the code used to run the analyses shown in the manus
         - The outputs are written to `output/unsensitivity_analysis_outputs/` and include:
             - `seqfulldf.csv`: The proportion of the 100 sequential simulations for a given LHS parameter combination from `output/6_7_unsensitive_LHS_df.csv` that had already hit the resistance prevalence threshold at that time point. 
             - `eafulldf.csv`: The proportion of the 100 equal allocation simulations for a given LHS parameter combination from `output/6_7_unsensitive_LHS_df.csv` that had already hit the resistance prevalence threshold at that time point. 
-            -  `diffdfall.csv`: The proportion of the 100 equal allocation simulations for a given LHS parameter combination from `output/6_7_unsensitive_LHS_df.csv` that had already hit the resistance prevalence threshold at that time point minus the proportion of the 100 sequential simulations for a given LHS parameter combination from `output/6_7_unsensitive_LHS_df.csv` that had already hit the resistance prevalence threshold at that time point. Used to generate Supplementary Figure 5.
-        -  The figures are written to `figures/2025-06-30_unsensitivity_figures` and include `diffmap_2yr.tiff`, `diffmap_5yr.tiff`, and `diffmap_10yr.tiff` which form Supplementary Figure 5.  <br><br>
+            -  `diffdfall.csv`: The proportion of the 100 equal allocation simulations for a given LHS parameter combination from `output/6_7_unsensitive_LHS_df.csv` that had already hit the resistance prevalence threshold at that time point minus the proportion of the 100 sequential simulations for a given LHS parameter combination from `output/6_7_unsensitive_LHS_df.csv` that had already hit the resistance prevalence threshold at that time point. Used to generate Supplementary Figure 5. 
+        -  The figures are written to `figures/2025-06-30_unsensitivity_figures` and include `diffmap_2yr.tiff`, `diffmap_5yr.tiff`, and `diffmap_10yr.tiff` which form Supplementary Figure 5.
+    -  br><br>
+        
 
       
 
