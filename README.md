@@ -53,7 +53,11 @@ The `code/` folder contains the code used to run the analyses shown in the manus
   - The plots that are generated from `threshold_analysis_output_plots.R` include the components of Figure 2, written to `/figures/baseline_parms_figures/`:
     - `threshold_compare_plot.tiff` which becomes panel A
     - `threshold_heatmap_ea.tiff` and `threshold_heatmap_seq.tiff` which become panel B.
-    
+* Sensitivity Analyses:
+  - `make_LHS_draws.R`: Draws two sets of 1000 sets of parameter combinations. The first is of Group 1 parameters, to which we did not expect our results to be sensitive. The dataframe of these parameter combinations is written to `output/6_7_unsensitive_LHS_df.csv`. The second is of Group 2 parameters, which we expected that our results could be sensitive to. The dataframe of these parameter combinations is written to `output/6_11_sensitive_LHS_df_fixed.csv`
+  - Sensitivity analysis of Group 1 parameters (termed informally "unsensitivity analysis"):
+    - `unsensitivity_analysis_ea.R`: Uses function `run_unsens_analysis` from `3drug_stochastic_functions.R` to run equal allocation stochastic model `equal_allocation_stochastic_6_7_brief` from `3drug_stochastic_models.R` for each set of parameters from `output/6_7_unsensitive_LHS_df.csv`. For each parameter combination under the equal allocation strategy, it runs 100 simulations and saves only datapoints from the times specified. 
+    - `unsensitivity_analysis_seq.R`: Uses function `run_unsens_analysis` from `3drug_stochastic_functions.R` to run equal allocation stochastic model `sequential_stochastic_6_7_brief` from `3drug_stochastic_models.R` for each set of parameters from `output/6_7_unsensitive_LHS_df.csv`. For each parameter combination under the sequential strategy, it runs 100 simulations and saves only datapoints from the times specified.  <br><br>
 
       
 
