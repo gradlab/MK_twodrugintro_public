@@ -23,7 +23,9 @@ The `code/` folder contains the code used to run the analyses shown in the manus
           - `combined_baselineparms_numslost.csv`
           - `combined_baselineparms_numslost_filtered.csv`: becomes Supplementary Table 3, and the other outputs are used for generating main and supplementary figures, as described.
     - `threshold_analysis_output_plots.R `: takes output generated from `threshold_analysis.R`, which were too large to include in the github repo, and creates summarized outputs and plots from them. The output files from this script are written to `output/baseline_parms_analysis/` and include:
-          -`seq_1perc_locksumdf.csv`
+          -  `seq_1perc_locksumdf.csv`
+      
+
   
 
 
