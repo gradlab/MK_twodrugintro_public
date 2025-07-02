@@ -11,7 +11,13 @@ The `code/` folder contains the code used to run the analyses shown in the manus
   - `3drug_parameters_6_12.R`: Contains the baseline set of parameters and initial conditions.
   - `3drug_stochastic_functions.R`: Contains the helped functions coded to run the analyses. <br><br>
 * Running determinstic models:
-  - `deterministic_runscript.R`: runs the deterministic versions of the equal allocation (`equal_allocation_simplified_discrete_5_28`) and sequential (`sequential_simplified_discrete_5_28`) from `3drug_stochastic_models.R` using function `run_stochastic_savebrief_6_3` from `3drug_stochastic_functions.R` and produces output and figures. <br><br>
+  - `deterministic_runscript.R`: runs the deterministic versions of the equal allocation (`equal_allocation_simplified_discrete_5_28`) and sequential (`sequential_simplified_discrete_5_28`) from `3drug_stochastic_models.R` using function `run_stochastic_savebrief_6_3` from `3drug_stochastic_functions.R` and produces output and figures.
+  - Outputs are written to `output/deterministic_output/` and include:
+    - `equal_allocation_prevs_deterministic.csv`
+    - `equal_allocation_compartments_deterministic.csv`
+    - `sequential_prevs_deterministic.csv`
+    - `sequential_compartments_deterministic.csv`
+  - Figures are written to `figures/deterministic_figures/` and together form Supplementary Figure 2.  <br><br>
 * Files running stochastic baseline parameter simulations: 
   - `baselineparms_1000runs_ea.R`: Code used to run odin model `equal_allocation_stochastic_6_7_brief` from `3drug_stochastic_models.R` using run function `run_stochastic_brief_6_27` from `3drug_stochastic_functions.R` for 1000 simulations.
   - `baselineparms_1000runs_seq.R`: Code used to run odin model `sequential_stochastic_6_7_brief` from `3drug_stochastic_models.R` using run function `run_stochastic_brief_6_27` from `3drug_stochastic_functions.R` for 1000 simulations. <br><br>
