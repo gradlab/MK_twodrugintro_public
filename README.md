@@ -1,4 +1,4 @@
-This is the code used for the analysis and figures in the manuscript "Comparing Strategies to Introduce Two New Antibiotics for Gonorrhea: A Modeling Study" by Kline et al, currently in submision and available as a preprint at https://www.medrxiv.org/content/10.1101/2025.07.01.25330638v1. 
+This is the code used for the analysis and figures in the manuscript "Comparing Strategies to Introduce Two New Antibiotics for Gonorrhea: A Modeling Study" by Kline et al, currently in submision and available as a preprint at https://www.medrxiv.org/content/10.1101/2025.07.01.25330638v2. 
 
 Code was run on the FASRC Cannon High Performance Computing cluster at Harvard University using R 4.4.1.
 
